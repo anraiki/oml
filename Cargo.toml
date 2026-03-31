@@ -1,0 +1,19 @@
+[package]
+name = "oml"
+version = "0.1.0"
+edition = "2021"
+description = "OML (Obvious Minimal Language) — TOML with semantic field awareness"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/anraiki/oml"
+keywords = ["config", "toml", "url", "semantic", "parser"]
+categories = ["config", "parser-implementations"]
+
+[dependencies]
+toml = "0.8"
+url = "2"
+indexmap = "2"
+thiserror = "1"
+
+[[example]]
+name = "basic"
+path = "examples/basic.rs"
